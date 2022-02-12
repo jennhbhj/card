@@ -1,0 +1,94 @@
+@import './_variables';
+@import './_twinfo';
+@import './_liked';
+@import './_natal';
+@import './_dnfi';
+@import './_byf';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $body;
+  font-family: sans-serif;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.App {
+  width: 100vw;
+}
+
+.card-container {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 5rem auto;
+  box-sizing: border-box;
+}
+
+.title {
+  grid-area: 1 / span 3;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .card-container {
+    padding: 2rem;
+  }
+
+  .card-content {
+    display: grid;
+    gap: 1rem;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .twitter-info {
+    justify-content: flex-start;
+    .info {
+      margin-left: 15px;
+    }
+  }
+
+  .under-the-sea {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    span {
+      text-align: right;
+    }
+  }
+
+  .natal-chart {
+    grid-area: 3 / span 2;
+    width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  .i-like {
+    grid-area: 4 / span 2;
+    width: 90%;
+    gap: 2rem;
+    margin: 1.5rem auto;
+  }
+
+  .l-g-c {
+    width: 120px;
+    height: 120px;
+  }
+}

@@ -1,0 +1,52 @@
+.twitter-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  div {
+    width: 60%;
+  }
+  div span a {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: $pale;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+.prof-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  &:active,
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}
+
+.under-the-sea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+}
+
+.general-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  span {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  span:nth-of-type(1) {
+    font-weight: 900;
+  }
+}

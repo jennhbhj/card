@@ -1,0 +1,29 @@
+.i-like {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.l-g-c {
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+}
+
+.l-g-t {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 900;
+  transition: all 0.3s ease;
+  &:active,
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}

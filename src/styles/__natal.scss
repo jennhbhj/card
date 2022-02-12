@@ -1,0 +1,32 @@
+.natal-chart {
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(92, 0, 128, 0.062);
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  .title {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.chart {
+  width: 100%;
+  display: grid;
+  margin: 1rem auto;
+  span {
+    margin-bottom: 0.1rem;
+  }
+}
+
+.planet {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  &:hover {
+    background-color: rgba(92, 0, 128, 0.062);
+  }
+  span:first-of-type {
+    font-weight: 600;
+  }
+}

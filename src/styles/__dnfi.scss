@@ -1,0 +1,19 @@
+.do-not {
+  margin: 1.5rem auto;
+  span {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
+
+ul {
+  list-style: none;
+  li {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  li::before {
+    content: '- ';
+    font-weight: 800;
+  }
+}
