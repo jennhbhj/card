@@ -5,12 +5,12 @@ const DoNotFollowIf = () => {
     <div className="do-not">
       <span>Do not follow if:</span>
       <ul>
-        <li>you think that TERF and SWERF are real terms</li>
-        <li>you call women 'people with vaginas'</li>
-        <li>you say 'not all men'</li>
-        <li>you think that patriarchy is not a real thing</li>
-        <li>you believe that sex work should be legalized</li>
-        <li>you call plastic surgery an empowerment</li>
+        <li>вы думаете, что TERF и SWERF реальные термины</li>
+        <li>вы называете женщин 'персоны с вагинами'</li>
+        <li>'не все мужчины'</li>
+        <li>вы считаете, что sex work должна быть легализована</li>
+        <li>вы считаете, что пластическая хирургия - реальный выбор женщины</li>
+        <li>вы стэните у*жина / сын*и / кр*са в* / и весь остальной мусор</li>
       </ul>
     </div>
   );

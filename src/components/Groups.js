@@ -2,8 +2,8 @@ import itzy from '../img/itzy.jpg';
 import twone1 from '../img/2ne1.png';
 import skz from '../img/skz.jpg';
 import exo from '../img/exo.png';
-import chungha from '../img/chungha.jpg';
-import hyuna from '../img/hyuna.jpg';
+import jamie from '../img/jamie.jpg';
+import mamamoo from '../img/mamamoo.jpg';
 
 const Groups = () => {
   const groups = [
@@ -35,15 +35,15 @@ const Groups = () => {
       id: 4,
     },
     {
-      name: 'chung ha',
-      videoURL: 'https://www.youtube.com/watch?v=RHw1a0WESuA',
-      img: `${chungha}`,
+      name: 'jamie',
+      videoURL: 'https://www.youtube.com/watch?v=FqvWpHyc3ps',
+      img: `${jamie}`,
       id: 5,
     },
     {
-      name: 'hyuna',
-      videoURL: 'https://www.youtube.com/watch?v=_yXEnhyOTQo',
-      img: `${hyuna}`,
+      name: 'mamamoo',
+      videoURL: 'https://www.youtube.com/watch?v=ajxfoVrXdKw',
+      img: `${mamamoo}`,
       id: 6,
     },
   ];
@@ -70,8 +70,30 @@ const Groups = () => {
 
   return (
     <div className="i-like">
-      <span className="title">besties</span>
+      <span className="title">бестис</span>
       {groupsList}
+      <div className="others">
+        <div className="other-b">бестис из моего плейлиста</div>
+        <ul className="other-b-l">
+          <li>txt</li>
+          <li>hyuna</li>
+          <li>chungha</li>
+          <li>se so neon</li>
+          <li>(g)i-dle</li>
+          <li>audrey nuna</li>
+          <li>the beaches</li>
+          <li>ailee</li>
+          <li>f(x)</li>
+          <li>wonder girls</li>
+          <li>saay</li>
+          <li>dpr</li>
+          <li>lee hi</li>
+          <li>sunmi</li>
+          <li>red velvet</li>
+          <li>snsd</li>
+          <li>exid</li>
+        </ul>
+      </div>
     </div>
   );
 };

@@ -116,6 +116,26 @@
           box-shadow: 0px 1px 10px 2px rgba(92, 0, 128, 0.6);
 }
 
+.others {
+  -ms-grid-row: 4;
+  grid-area: 4 / span 3;
+  margin: 1rem auto;
+}
+
+.others .other-b {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.other-b-l {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
 .natal-chart {
   margin: 1.5rem auto;
   display: -webkit-box;
@@ -178,6 +198,7 @@ ul {
 
 ul li {
   font-size: 0.9rem;
+  margin-top: 0.5rem;
   font-style: italic;
 }
 
@@ -193,6 +214,42 @@ ul li::before {
 .byf span {
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+.navbar {
+  margin: 2rem auto;
+  text-align: center;
+  -ms-grid-row: 2;
+  grid-area: 2 / span 2;
+}
+
+.navbar ul {
+  width: 60%;
+  min-width: 280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar a {
+  background-color: rgba(92, 0, 128, 0.062);
+  font-style: normal;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.navbar .active {
+  background-color: rgba(92, 0, 128, 0.178);
+  font-weight: 600;
+}
+
+.navbar li::before {
+  content: '';
 }
 
 * {
@@ -282,6 +339,25 @@ a {
   .under-the-sea span {
     text-align: right;
   }
+  .navbar {
+    width: 100%;
+    margin: 2.5rem auto 0.5rem auto;
+  }
+  .navbar ul {
+    width: 80%;
+  }
+  .navbar a {
+    padding: 1rem 2rem;
+  }
+  .gen-info {
+    -ms-grid-row: 3;
+    grid-area: 3 / span 2;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
   .natal-chart {
     -ms-grid-row: 3;
     grid-area: 3 / span 2;
@@ -298,6 +374,9 @@ a {
   .l-g-c {
     width: 120px;
     height: 120px;
+  }
+  .others {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

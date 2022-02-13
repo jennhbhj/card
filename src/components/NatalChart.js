@@ -50,7 +50,7 @@ const NatalChart = () => {
 
   return (
     <div className="natal-chart">
-      <span className="title">natal chart</span>
+      <span className="title">натало4ка</span>
       <div className="chart">{chartList}</div>
     </div>
   );

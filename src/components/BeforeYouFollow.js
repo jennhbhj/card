@@ -3,20 +3,20 @@ const BeforeYouFollow = () => {
     <div className="byf">
       <span>Before you follow:</span>
       <ul>
-        <li>full-time complainer about patriarchy, capitalism, and skincare</li>
-        <li>i retweet a lot of capybaras and possums</li>
+        <li>докторская по жалобам на патриархат и капитализм</li>
+        <li>я ретвичу много капибар и опоссумов</li>
         <li>
-          retweet genshin and anime stuff, but that's because of my bestie
+          ретвичу про геншин и аниме, но я не шарю, у меня просто бести в этих
+          фд
         </li>
         <li>
-          i have a full collection of mental disorders sooo read me at your own
-          risk lol
+          могу написать что-то потенциально триггерное на тему ментального
+          здоровья, поэтому читайте на свой страх и риск
         </li>
         <li>
-          my pokemons: adhd, probably autism, depression, generalized anxiety
-          disorder, ptsd
+          я повторюсь, я РАДФЕМ, если вам неприятно всё, что с нами связано,
+          уходите плс мне реально похуй
         </li>
-        <li>oversharing team</li>
       </ul>
     </div>
   );

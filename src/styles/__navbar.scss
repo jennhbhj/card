@@ -1,0 +1,26 @@
+.navbar {
+  margin: 2rem auto;
+  text-align: center;
+  grid-area: 2 / span 2;
+  ul {
+    width: 60%;
+    min-width: 280px;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  a {
+    background-color: rgba(92, 0, 128, 0.062);
+    font-style: normal;
+    padding: 1rem;
+    border-radius: 7px;
+  }
+  .active {
+    background-color: rgba(92, 0, 128, 0.178);
+    font-weight: 600;
+  }
+  li::before {
+    content: '';
+  }
+}
